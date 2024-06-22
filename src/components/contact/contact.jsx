@@ -37,7 +37,7 @@ const Contact = () => {
                 target="_blank"
                 rel="noreferrer"
               >
-                Me escreva
+                Entre em contato
                 <i className="bx bx-right-arrow-alt contact_button-icon"></i>
               </a>
             </div>
@@ -54,7 +54,7 @@ const Contact = () => {
                 target="_blank"
                 rel="noreferrer"
               >
-                Me escreva
+                Entre em contato
                 <i className="bx bx-right-arrow-alt contact_button-icon"></i>
               </a>
             </div>
@@ -71,7 +71,7 @@ const Contact = () => {
                 target="_blank"
                 rel="noreferrer"
               >
-                Me escreva
+                Entre em contato
                 <i className="bx bx-right-arrow-alt contact_button-icon"></i>
               </a>
             </div>
