@@ -5,7 +5,7 @@
 
 /* Variables CSS */
 :root {
-  --header-height: 3rem;
+  --header-height: 48px;
 
   /* Colors */
   --hue: 0;
@@ -20,14 +20,14 @@
   --body-font: "Poppins", sans-serif;
 
   /* .5rem = 8px | 1rem = 16px */
-  --big-font-size: 3.5rem;
-  --h1-font-size: 2.25rem;
-  --h2-font-size: 1.5rem;
-  --h3-font-size: 1.25rem;
-  --normal-font-size: 1rem;
-  --small-font-size: 0.875rem;
-  --smaller-font-size: 0.813rem;
-  --tiny-font-size: 0.625rem;
+  --big-font-size: 56px;
+  --h1-font-size: 36px;
+  --h2-font-size: 24px;
+  --h3-font-size: 20px;
+  --normal-font-size: 16px;
+  --small-font-size: 14px;
+  --smaller-font-size: 13px;
+  --tiny-font-size: 10px;
 
   /* Font Weight */
   --font-normal: 400;
@@ -36,14 +36,14 @@
 
   /* margenes bottom */
   /* .5rem = 8px | 1rem = 16px */
-  --mb-0-25: 0.25rem;
-  --mb-0-5: 0.5rem;
-  --mb-0-75: 0.75rem;
-  --mb-1: 1rem;
-  --mb-1-5: 1.5rem;
-  --mb-2: 2rem;
-  --mb-2-5: 2.5rem;
-  --mb-3: 3rem;
+  --mb-0-25: 4px;
+  --mb-0-5: 8px;
+  --mb-0-75: 12px;
+  --mb-1: 16px;
+  --mb-1-5: 24px;
+  --mb-2: 32px;
+  --mb-2-5: 40px;
+  --mb-3: 48px;
 
   /* z index */
   --z-tooltip: 10;
@@ -99,7 +99,7 @@
 
   /* Reusable CSS Classes */
   .section {
-    padding: 6rem 0 2rem;
+    padding: 96px 0 32px;
   }
 
   .section_title {
@@ -110,7 +110,7 @@
   .section_subtitle {
     display: block;
     font-size: var(--small-font-size);
-    margin-bottom: 4rem;
+    margin-bottom: 64px;
   }
 
   .section_title,
@@ -127,7 +127,7 @@
 
   .grid {
     display: grid;
-    gap: 1.5rem;
+    gap: 24px;
   }
 
   /* Buttons */
@@ -135,8 +135,8 @@
     display: inline-block;
     background-color: var(--container-color);
     color: var(--title-color);
-    padding: 1.25rem 2rem;
-    border-radius: 1rem;
+    padding: 20px 32px;
+    border-radius: 16px;
     font-weight: var(--font-medium);
   }
 
@@ -147,7 +147,7 @@
   }
 
   .button_icon {
-    margin-left: var(--mb-0-5);
+    margin-left: 8px;
   }
 
   .button-flex {
@@ -158,13 +158,13 @@
   /* Responsive typography */
   @media screen and (max-width: 992px) {
     :root {
-      --big-font-size: 2.75rem;
-      --h1-font-size: 1.5rem;
-      --h2-font-size: 1.25rem;
-      --h3-font-size: 1rem;
-      --normal-font-size: 1rem;
-      --small-font-size: 0.813rem;
-      --smaller-font-size: 0.75rem;
+      --big-font-size: 44px;
+      --h1-font-size: 24px;
+      --h2-font-size: 20px;
+      --h3-font-size: 16px;
+      --normal-font-size: 16px;
+      --small-font-size: 13px;
+      --smaller-font-size: 12px;
     }
 
     /* BreakPoints */
@@ -177,7 +177,7 @@
       }
 
       .button{
-        padding: 1rem 1.75rem;
+        padding: 16px 28px;
       }
 
       .button_icon{
@@ -189,11 +189,11 @@
     /* for medium devices */
     @media screen and (max-width: 768px) {
       body{
-        margin: 0 0 var(--header-height) 0;
+        margin: 0 0 48px 0;
       }
 
       .section{
-        padding: 2rem 0 4rem;
+        padding: 32px 0 64px;
       }
 
       .section_subtitle{
@@ -208,7 +208,7 @@
     @media screen and (max-width: 350px) {
 
       :root{
-        --big-font-size: 2.25rem;
+        --big-font-size: 36px;
       }
 
       .container{

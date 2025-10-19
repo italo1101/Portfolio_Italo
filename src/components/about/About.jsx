@@ -5,20 +5,32 @@ import CV from "../../assets/Curriculo_italo_cruz.pdf";
 // import Info from './Info';
 
 const About = () => {
-    return(
-        <section className="about section" id="about">
-            <h2 className="section_title">Sobre Mim</h2>
-            <span className="section_subtitle">Introdução</span>
+    return (
+      <section className="about section" id="about">
+        <h2 className="section_title">Sobre Mim</h2>
+        <span className="section_subtitle">Introdução</span>
 
-            <div className="about_container container grid">
-                <img src={AboutImg} alt="Italo" className="about_img" />
+        <div className="about_container container grid">
+          <img src={AboutImg} alt="Italo" className="about_img" />
 
-                <div className="about_data">
+          <div className="about_data">
+            <p className="about_description">
+              Meu nome é Italo, tenho 26 anos e sou formado em Análise e
+              Desenvolvimento de Sistemas pela UNIT, em parceria com o Porto
+              Digital. Sou apaixonado por tecnologia e inovação, sempre buscando
+              aprender novas ferramentas e aprimorar minhas habilidades. Como
+              desenvolvedor Full Stack, atuo em todas as etapas do
+              desenvolvimento, do design à implementação, criando soluções
+              eficientes, escaláveis e intuitivas. Tenho curiosidade constante,
+              gosto de enfrentar desafios, participar de eventos e visitas
+              técnicas, como PHPeste, RecNPlay, além de visitas à Globo e à
+              Liferay, e transformar ideias em produtos funcionais que entregam
+              impacto real aos usuários.
+            </p>
 
-                    <p className="about_description">Meu nome é Ítalo, tenho 25 anos e atualmente estou cursando o quarto período de Análise e Desenvolvimento de Sistemas na UNIT, em parceria com o Porto Digital. Estudo na área há 3 anos e tenho 6 meses de experiência como freelancer. Além disso, tive 2 anos de experiência na área administrativa como assistente administrativo, o que me ajudou na organização de projetos através do aprendizado da metodologia ágil. Trabalho com desenvolvimento web, desde a fase inicial de design até a implementação completa do projeto. Minhas principais ferramentas são ReactJS com TypeScript para o frontend, NodeJS para o backend, Tailwind para estilização e Figma para design.</p>
-
-                    <a download="" href={CV} className="button button-flex">Baixar currículo
-                    <svg
+            <a download="" href={CV} className="button button-flex">
+              Baixar currículo
+              <svg
                 class="button__icon"
                 xmlns="http://www.w3.org/2000/svg"
                 width="24"
@@ -43,11 +55,11 @@ const About = () => {
                   fill="var(--title-color)"
                 ></path>
               </svg>
-                    </a>
-                </div>
-            </div>
-        </section>
-    )
+            </a>
+          </div>
+        </div>
+      </section>
+    );
 }
 
 export default About

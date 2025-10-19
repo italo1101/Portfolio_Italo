@@ -1,8 +1,8 @@
 .contact_container{
     grid-template-columns: repeat(2, max-content);
     justify-content: center;
-    column-gap: 6rem;
-    padding-bottom: 3rem;
+    column-gap: 96px;
+    padding-bottom: 48px;
 }
 
 .contact_title{
@@ -15,7 +15,7 @@
 
 .contact_info{
     display: grid;
-    row-gap: 1rem;
+    row-gap: 16px;
     color: var(--title-color);
     grid-template-columns: 300px;
 }
@@ -23,13 +23,13 @@
 .contact_card{
     background-color: var(--container-color);
     border: 1px solid rgba(0, 0, 0, 0.1);
-    padding: 1rem;
-    border-radius: 0.75rem;
+    padding: 16px;
+    border-radius: 12px;
     text-align: center;
 }
 
 .contact_card-icon{
-    font-size: 2rem;
+    font-size: 32px;
     color: var(--title-color);
     margin-bottom: var(--mb-0-25);
 }
@@ -53,16 +53,16 @@
     display: inline-flex;
     align-items: center;
     justify-content: center;
-    column-gap: 0.25rem;
+    column-gap: 4px;
 }
 
 .contact_button-icon{
-    font-size: 1rem;
+    font-size: 16px;
     transition: 0.3s;
 }
 
 .contact_button:hover .contact_button-icon{
-   transform: translateX(0.25rem)
+   transform: translateX(4px)
 }
 
 .contact_form{
@@ -72,7 +72,7 @@
 .contact_form-div{
     position: relative;
     margin-bottom: var(--mb-2);
-    height: 4rem;
+    height: 64px;
 }
 
 .contact_form-input{
@@ -85,23 +85,23 @@
     background: none;
     color: var(--text-color);
     outline: none;
-    border-radius: 0.75rem;
-    padding: 1.5rem;
+    border-radius: 12px;
+    padding: 24px;
     z-index: 1;
 }
 
 .contact_form-tag{
     position: absolute;
-    top: -0.75rem;
-    left: 1.25rem;
+    top: -12px;
+    left: 20px;
     font-size: var(--smaller-font-size);
-    padding: 0.25rem;
+    padding: 4px;
     background-color: var(--body-color);
     z-index: 10;
 }
 
 .contact_form-area{
-    height: 11rem;
+    height: 176px;
 }
 
 .contact_form-area textarea{
@@ -113,7 +113,7 @@
     /* for large devices */
     @media screen and (max-width: 992px) {
         .contact_container{
-            column-gap: 3rem;
+            column-gap: 48px;
         }
       }
   
@@ -121,7 +121,7 @@
       @media screen and (max-width: 768px) {
         .contact_container{
            grid-template-columns: 1fr; 
-           row-gap: 3rem;
+           row-gap: 48px;
         }
 
         .contact_info{

@@ -2,19 +2,19 @@
     display: grid;
     grid-template-columns: repeat(3, 270px);
     justify-content: center;
-    column-gap: 1.8rem;
+    column-gap: 28.8px;
 }
 
 .services_content {
     position: relative;
     border: 1px solid rgba(0, 0, 0, 0.1);
     background-color: var(--container-color);
-    padding: 6rem 0 2rem 2.5rem;
+    padding: 96px 0 32px 40px;
 }
 
 .services_icon {
     display: block;
-    font-size: 2rem;
+    font-size: 32px;
     color: var(--title-color);
     margin-bottom: var(--mb-1);
 }
@@ -31,17 +31,17 @@
     font-size: var(--smal-font-size);
     display: inline-flex;
     align-items: center;
-    column-gap: 0.25rem;
+    column-gap: 4px;
     cursor: pointer;
 }
 
 .services_button-icon {
-    font-size: 1rem;
+    font-size: 16px;
     transition: 0.3s;
 }
 
 .services_button:hover .services_button-icon {
-    transform: translateX(0.25rem);
+    transform: translateX(4px);
 }
 
 .services_modal {
@@ -55,7 +55,7 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    padding: 0 1rem;
+    padding: 0 16px;
     opacity: 0;
     visibility: hidden;
     transition: opacity 0.3s, visibility 0.3s;
@@ -65,16 +65,16 @@
     width: 500px;
     position: relative;
     background-color: var(--container-color);
-    padding: 2.5rem 2.5rem;
-    border-radius: 1.5rem;
+    padding: 40px 40px;
+    border-radius: 24px;
     box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
 }
 
 .services-modal-close {
     position: absolute;
-    top: 1rem;
-    right: 1rem;
-    font-size: 1.5rem;
+    top: 16px;
+    right: 16px;
+    font-size: 24px;
     color: var(--title-color);
     cursor: pointer;
 }
@@ -93,25 +93,25 @@
 
 .services_modal-description {
     font-size: var(--small-font-size);
-    padding: 0 3.5rem;
+    padding: 0 56px;
     margin-bottom: var(--mb-2);
 }
 
 .services_modal-services  {
     display: grid;
-    row-gap: 0.75rem;
+    row-gap: 12px;
     color: var(--title-color);
 }
 
 .services_modal-services {
     display: flex;
     align-items: center;
-    gap: 0.5rem;
+    gap: 8px;
 }
 
 .services_modal-icon {
     color: var(--title-color);
-    font-size: 1.1rem;
+    font-size: 17.6px;
 }
 
 .services_modal-info {
@@ -140,17 +140,17 @@
         }
 
         .services_content{
-            padding: 3.5rem 0.5rem 1.25rem 1.5rem;
+            padding: 56px 8px 20px 24px;
         }
 
         .services_icon{
-            font-size: 1.5rem;
+            font-size: 24px;
         }
       }
   
       @media screen and (max-width: 576px) {
         .services_modal-content{
-            padding: 4.5rem 1.5rem 2.5rem;
+            padding: 72px 24px 40px;
         }
 
         .services_modal-description{
@@ -166,6 +166,6 @@
       /* for small devices */
       @media screen and (max-width: 350px) {
         .services_content{
-            padding-right: 6rem;
+            padding-right: 96px;
         }
       }

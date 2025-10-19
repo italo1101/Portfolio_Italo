@@ -8,11 +8,11 @@
 }
 
 .nav{
-    height: calc(var(--header-height) + 1.5rem);
+    height: calc(48px + 24px);
     display: flex;
     justify-content: space-between;
     align-items: center;
-    column-gap: 1rem;
+    column-gap: 16px;
 }
 
 .nav_logo,
@@ -23,7 +23,7 @@
 
 .nav_list{
     display: flex;
-    column-gap: 2rem;
+    column-gap: 32px;
 }
 
 .nav_link{
@@ -67,9 +67,9 @@
         left: 0;
         width: 100%;
         background-color: var(--container-color);
-        padding: 2rem 1.5rem 4rem;
+        padding: 32px 24px 64px;
         box-shadow: 0 -1px 4px rgba(0, 0, 0, 0.15);
-        border-radius: 1.5rem 1.5rem 0.0;
+        border-radius: 24px 24px 0.0;
         transition: .3s;
     }
 
@@ -82,24 +82,24 @@
     .nav_list{
         display: grid;
         grid-template-columns: repeat(3, 1fr);
-        gap: 2rem;
+        gap: 32px;
     }
 
     .nav_icon{
-        font-size: 1.2rem;
+        font-size: 19.2px;
     }
 
     .nav_close{
         position: absolute;
-        right: 1.3rem;
-        bottom: .5rem;
-        font-size: 1.5rem;
+        right: 20.8px;
+        bottom: 8px;
+        font-size: 24px;
         cursor: pointer;
         color: var(--title-color);
     }
 
     .nav_toggle{
-        font-size: 1.1rem;
+        font-size: 17.6px;
         cursor: pointer;
         color: var(--title-color);
     }
@@ -115,7 +115,7 @@
 
 @media screen and (max-width: 350px){
     .nav_menu{
-        padding: 2rem 0.25rem 4rem;
+        padding: 32px 4px 64px;
     }
 
     .nav_list{

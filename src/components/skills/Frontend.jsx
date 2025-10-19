@@ -21,35 +21,6 @@ const Frontend = () => {
                         <i class='bx bxs-badge-check'></i>
 
                         <div>
-                            <h3 className="skills_name">Sass</h3> 
-                            <span className="skills_level">Básico</span>
-                        </div> 
-                    </div>
-
-                    <div className="skills_data">
-                        <i class='bx bxs-badge-check'></i>
-
-                        <div>
-                            <h3 className="skills_name">Tailwind</h3> 
-                            <span className="skills_level">Intermediário</span>
-                        </div> 
-                    </div>
-                </div>
-
-                <div className="skills_group">
-                    <div className="skills_data">
-                        <i class='bx bxs-badge-check'></i>
-
-                        <div>
-                            <h3 className="skills_name">BootStrap</h3> 
-                            <span className="skills_level">Básico</span>
-                        </div> 
-                    </div>
-
-                    <div className="skills_data">
-                        <i class='bx bxs-badge-check'></i>
-
-                        <div>
                             <h3 className="skills_name">ReactJs</h3> 
                             <span className="skills_level">Intermediário</span>
                         </div> 
@@ -60,7 +31,19 @@ const Frontend = () => {
 
                         <div>
                             <h3 className="skills_name">AngularJs</h3> 
-                            <span className="skills_level">Básico</span>
+                            <span className="skills_level">Intermediário</span>
+                        </div> 
+                    </div>
+                </div>
+                
+
+                <div className="skills_group">
+                    <div className="skills_data">
+                        <i class='bx bxs-badge-check'></i>
+
+                        <div>
+                            <h3 className="skills_name">BootStrap</h3> 
+                            <span className="skills_level">Intermediário</span>
                         </div> 
                     </div>
 
@@ -68,7 +51,7 @@ const Frontend = () => {
                         <i class='bx bxs-badge-check'></i>
 
                         <div>
-                            <h3 className="skills_name">Figma</h3> 
+                            <h3 className="skills_name">Tailwind</h3> 
                             <span className="skills_level">Intermediário</span>
                         </div> 
                     </div>
