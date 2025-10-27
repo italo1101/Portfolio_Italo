@@ -73,6 +73,18 @@ const Services = () => {
                                     <i className="uil uil-check-circle services_modal-icon"></i>
                                     <p className="services_modal-info">Estilização avançada com Tailwind CSS para criar layouts atraentes e responsivos.</p>
                                 </li>
+                                <li className="services_modal-services">
+                                    <i className="uil uil-check-circle services_modal-icon"></i>
+                                    <p className="services_modal-info">Desenvolvimento de aplicações com AngularJS para soluções robustas e escaláveis.</p>
+                                </li>
+                                <li className="services_modal-services">
+                                    <i className="uil uil-check-circle services_modal-icon"></i>
+                                    <p className="services_modal-info">Implementação de interfaces responsivas utilizando Bootstrap para desenvolvimento ágil.</p>
+                                </li>
+                                <li className="services_modal-services">
+                                    <i className="uil uil-check-circle services_modal-icon"></i>
+                                    <p className="services_modal-info">Criação de interfaces modernas e interativas com TypeScript para maior segurança de tipos.</p>
+                                </li>
                             </ul>
                         </div>
                     </div>

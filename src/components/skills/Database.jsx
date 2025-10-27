@@ -11,7 +11,7 @@ const Database = () => {
                         <i class='bx bxs-badge-check'></i>
 
                         <div>
-                            <h3 className="skills_name">NodeJs</h3> 
+                            <h3 className="skills_name">MySql</h3> 
                             <span className="skills_level">Intermediário</span>
                         </div> 
                     </div>
@@ -20,46 +20,28 @@ const Database = () => {
                         <i class='bx bxs-badge-check'></i>
 
                         <div>
-                            <h3 className="skills_name">MySQL</h3> 
-                            <span className="skills_level">Intermediário</span>
-                        </div> 
-                    </div>
-
-                    <div className="skills_data">
-                        <i class='bx bxs-badge-check'></i>
-
-                        <div>
-                            <h3 className="skills_name">Prisma</h3> 
+                            <h3 className="skills_name">PostgreSql</h3> 
                             <span className="skills_level">Intermediário</span>
                         </div> 
                     </div>
                 </div>
 
                 <div className="skills_group">
-                    <div className="skills_data">
+                <div className="skills_data">
                         <i class='bx bxs-badge-check'></i>
 
                         <div>
-                            <h3 className="skills_name">PHP - laravel</h3> 
+                            <h3 className="skills_name">MongoDb</h3> 
                             <span className="skills_level">Básico</span>
                         </div> 
                     </div>
-
+                    
                     <div className="skills_data">
                         <i class='bx bxs-badge-check'></i>
 
                         <div>
-                            <h3 className="skills_name">PHP - CodeIgniter</h3> 
-                            <span className="skills_level">Básico</span>
-                        </div> 
-                    </div>
-
-                    <div className="skills_data">
-                        <i class='bx bxs-badge-check'></i>
-
-                        <div>
-                            <h3 className="skills_name">Ruby on Rails</h3> 
-                            <span className="skills_level">Básico</span>
+                            <h3 className="skills_name">Prisma</h3> 
+                            <span className="skills_level">Intermediário</span>
                         </div> 
                     </div>
                 </div>

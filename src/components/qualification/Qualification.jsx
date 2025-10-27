@@ -60,6 +60,7 @@ const Qualification = () => {
                 <div className="qualification_line"></div>
               </div>
             </div>
+            
 
             <div className="qualification_data">
               <div></div>
@@ -73,7 +74,7 @@ const Qualification = () => {
                 <h3 className="qualification_title">Assistente Administrativo</h3>
                 <span className="qualification_subtitle"></span>
                 <div className="qualification_calendar">
-                  <i className="uil uil-calendar-alt"></i> 2019 - 2020
+                  <i className="uil uil-calendar-alt"></i> 2019 - 2021
                 </div>
               </div>
             </div>
