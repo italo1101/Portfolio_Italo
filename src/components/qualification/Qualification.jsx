@@ -92,7 +92,39 @@ const Qualification = () => {
             <div className="qualification_data">
               <div>
                 <h3 className="qualification_title">Desenvolvedor FullStack</h3>
-                <span className="qualification_subtitle">Secretária de Educação - Residência Porto Digital</span>
+                <span className="qualification_subtitle">Minsait</span>
+                <div className="qualification_calendar">
+                  <i className="uil uil-calendar-alt"></i> 2025
+                </div>
+              </div>
+
+              <div>
+                <span className="qualification_rounder"></span>
+                <div className="qualification_line"></div>
+              </div>
+            </div>
+
+            <div className="qualification_data">
+              <div></div>
+
+              <div>
+                <span className="qualification_rounder"></span>
+                <div className="qualification_line"></div>
+              </div>
+
+              <div>
+                <h3 className="qualification_title">Desenvolvedor FullStack</h3>
+                <span className="qualification_subtitle">Secretária de Educação do Recife - Estágio</span>
+                <div className="qualification_calendar">
+                  <i className="uil uil-calendar-alt"></i> 2024
+                </div>
+              </div>
+            </div>
+
+            <div className="qualification_data">
+              <div>
+                <h3 className="qualification_title">Desenvolvedor FullStack</h3>
+                <span className="qualification_subtitle">Secretária de Educação do Recife - Residência Porto Digital</span>
                 <div className="qualification_calendar">
                   <i className="uil uil-calendar-alt"></i> 2024
                 </div>
@@ -109,7 +141,7 @@ const Qualification = () => {
 
               <div>
                 <span className="qualification_rounder"></span>
-                <span className="qualification_line"></span>
+                <div className="qualification_line"></div>
               </div>
 
               <div>

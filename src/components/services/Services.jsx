@@ -41,6 +41,22 @@ const Services = () => {
                                     <i className="uil uil-check-circle services_modal-icon"></i>
                                     <p className="services_modal-info">Integração de APIs para fornecer funcionalidades dinâmicas e interativas.</p>
                                 </li>
+                                <li className="services_modal-services">
+                                    <i className="uil uil-check-circle services_modal-icon"></i>
+                                    <p className="services_modal-info">Criação de sites institucionais e corporativos com design responsivo.</p>
+                                </li>
+                                <li className="services_modal-services">
+                                    <i className="uil uil-check-circle services_modal-icon"></i>
+                                    <p className="services_modal-info">Desenvolvimento de e-commerce e plataformas de vendas online.</p>
+                                </li>
+                                <li className="services_modal-services">
+                                    <i className="uil uil-check-circle services_modal-icon"></i>
+                                    <p className="services_modal-info">Otimização de performance e SEO para melhor posicionamento nos buscadores.</p>
+                                </li>
+                                <li className="services_modal-services">
+                                    <i className="uil uil-check-circle services_modal-icon"></i>
+                                    <p className="services_modal-info">Implementação de funcionalidades interativas e animações modernas.</p>
+                                </li>
                             </ul>
                         </div>
                     </div>
@@ -116,6 +132,22 @@ const Services = () => {
                                 <li className="services_modal-services">
                                     <i className="uil uil-check-circle services_modal-icon"></i>
                                     <p className="services_modal-info">Desenvolvimento de autenticação e autorização seguras.</p>
+                                </li>
+                                <li className="services_modal-services">
+                                    <i className="uil uil-check-circle services_modal-icon"></i>
+                                    <p className="services_modal-info">Desenvolvimento de APIs RESTful e GraphQL com NodeJS.</p>
+                                </li>
+                                <li className="services_modal-services">
+                                    <i className="uil uil-check-circle services_modal-icon"></i>
+                                    <p className="services_modal-info">Criação de aplicações web robustas utilizando Ruby on Rails.</p>
+                                </li>
+                                <li className="services_modal-services">
+                                    <i className="uil uil-check-circle services_modal-icon"></i>
+                                    <p className="services_modal-info">Desenvolvimento de sistemas web com PHP Laravel para soluções escaláveis.</p>
+                                </li>
+                                <li className="services_modal-services">
+                                    <i className="uil uil-check-circle services_modal-icon"></i>
+                                    <p className="services_modal-info">Implementação de aplicações web com PHP CodeIgniter para desenvolvimento ágil.</p>
                                 </li>
                             </ul>
                         </div>
